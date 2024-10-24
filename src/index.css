@@ -186,3 +186,57 @@ button:hover {
   margin-bottom: 2rem;
 }
 
+
+@media (max-width: 768px) {
+  header nav a {
+    font-size: 1rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+
+  form {
+    padding: 0 0.5rem;
+  }
+
+  input[type="text"] {
+    max-width: 100%;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  button {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .movie-item h3 {
+    font-size: 1rem;
+  }
+
+  .movie-item p {
+    font-size: 0.85rem;
+  }
+
+  .movie-item a {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .movie-details {
+    padding: 1rem;
+  }
+
+  .movie-details h1 {
+    font-size: 1.5rem;
+  }
+
+  .movie-details p {
+    font-size: 1rem;
+  }
+
+  .favorites h2 {
+    font-size: 1.5rem;
+  }
+}
